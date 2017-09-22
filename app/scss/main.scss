@@ -2,10 +2,14 @@ $bg-color: #f0f5f9;
 $text-color: #1e2022;
 $text-font: 'Roboto', sans-serif;
 $headline-font: 'Droid Serif', serif;
+$paragraph-font: #30A9DE;
 .body{
 	background-color: #f0f5f9;
 
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: $headline-font;
+}
+p {
+	font-color: #30A9DE;
 }

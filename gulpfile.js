@@ -31,7 +31,7 @@ gulp.task('htmlify', function(){
 	}));
 });
 
-gulp.task('browser-sync', function(){
+gulp.task('browserSync', function(){
 	browserSync.init({
 		server: {
 			baseDir: 'app'
