@@ -17,3 +17,7 @@ gulp.task('sassify', function(){
 	.pipe(sass())
 	.pipe(gulp.dest('dist/css'));
 });
+
+gulp.task('watch', function(){
+	gulp.watch('app/scss/**/*.scss', ['sassify']);
+});
