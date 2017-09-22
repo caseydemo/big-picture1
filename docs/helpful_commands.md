@@ -11,3 +11,8 @@ $ git push remote branch
 
 (Example: $git push origin master)
 
+$ npm init
+$ npm install --save-dev gulp
+$ npm install --save-dev gulp-sass
+$ npm install --save-dev jquery
+$ npm install --save-dev bootstrap
